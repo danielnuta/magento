@@ -11,9 +11,6 @@ public class SearchProductTest extends BaseTest{
         SearchProductPage searchProductPage = new SearchProductPage(driver);
         searchProductPage.searchProduct("montana");
 
-//        String expectedText = "montana";
-//        boolean isProductDisplayed = driver.findElement(By.xpath("//*[contains(text(), 'montana')]")).isDisplayed();
-//
-//        Assert.assertTrue(isProductDisplayed,"'montana' was not found in the search results.");
+
     }
 }
