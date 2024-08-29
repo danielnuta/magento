@@ -20,7 +20,7 @@ public WebElement emailTextField;
     @FindBy(id = "pass")
 public WebElement passTextField;
 
-    @FindBy(name = "send")
+    @FindBy(id = "send2")
 public WebElement loginButton;
 
 
